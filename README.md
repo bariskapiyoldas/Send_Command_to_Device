@@ -44,6 +44,8 @@ The following libraries are used in this script:
     
 
     Replace LDAP_USER and LDAP_PASS with your LDAP username and password, respectively.
+      
+    Open/Create the iplist.txt file and add the IP addresses of the devices that you want to connect to, each IP address in a new line.
 
 5. Run the script by running the following command in your terminal or command prompt:
 
@@ -57,7 +59,6 @@ The following libraries are used in this script:
 
 # How to Use
 
-After running the script, you will be prompted to enter the IP address of the CPE that you want to connect to.
 
 Wait for the script to complete the connections to the CPEs. The results will be written to the Cisco&Huawei-Telnet&SSH-LDAP.txt file.
 
