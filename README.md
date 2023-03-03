@@ -21,31 +21,32 @@ The following libraries are used in this script:
 
 3. Install the necessary libraries:
 
-paramiko
+    paramiko
 
-paramiko_expect
+    paramiko_expect
 
-You can install these libraries via pip. Open your terminal or command prompt and enter the following commands:
+    You can install these libraries via pip. Open your terminal or command prompt and enter the following commands:
 
-pip install paramiko
+    pip install paramiko
 
-pip install paramiko_expect
+    pip install paramiko_expect
 
 4. Configure the script. Open the script with your preferred code editor and edit the following lines to suit your environment:
 
 
-ldap_user = 'LDAP_USER'
-ldap_pass = 'LDAP_PASS'
-defaultuser = 'defaultuser'
-defaultuserpass = 'defaultpass'
+    ldap_user = 'LDAP_USER'
+    ldap_pass = 'LDAP_PASS'
+    defaultuser = 'defaultuser'
+    defaultuserpass = 'defaultpass'
 
-Replace LDAP_USER and LDAP_PASS with your LDAP username and password, respectively.
+    Replace LDAP_USER and LDAP_PASS with your LDAP username and password, respectively.
 
 5. Run the script by running the following command in your terminal or command prompt:
 
-python script.py
+    python script.py
 
-Replace script.py with the name of the script file that you downloaded in step 2.
+    Replace script.py with the name of the script file that you downloaded in step 2.
+    
 
 **Note: This script was tested on Python 3.8.8 on Windows 10.**
 
