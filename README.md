@@ -1,4 +1,4 @@
-# Cisco & Huawei Telnet & SSH
+# Send_Command_to_Device / Cisco & Huawei Telnet & SSH
 
 This Python script enables you to connect to a CPE via Telnet and SSH, regardless of whether it is Huawei or Cisco, by determining the appropriate commands to be sent according to the CPE.
 
