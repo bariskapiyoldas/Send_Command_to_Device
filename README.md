@@ -1,8 +1,8 @@
 # Send_Command_to_Device / Cisco & Huawei Telnet & SSH
 
-This Python script enables you to connect to a CPE via Telnet and SSH, regardless of whether it is Huawei or Cisco, by determining the appropriate commands to be sent according to the CPE.
+This Python script enables you to connect to a CPE via Telnet and/or SSH, regardless of whether it is Huawei or Cisco, by determining the appropriate commands to be sent according to the CPE.
 
-The script also works with LDAP to authenticate the user, and based on the connection method (Telnet or SSH), it sends the necessary commands to the CPE.
+The script also works with LDAP and/or username and password provided by uses to authenticate the user, and based on the connection method (Telnet or SSH), it sends the necessary commands to the CPE.
 
 The following libraries are used in this script:
 
