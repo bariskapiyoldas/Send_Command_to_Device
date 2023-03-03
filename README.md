@@ -35,9 +35,13 @@ The following libraries are used in this script:
 
 
     ldap_user = 'LDAP_USER'
+    
     ldap_pass = 'LDAP_PASS'
+    
     defaultuser = 'defaultuser'
+    
     defaultuserpass = 'defaultpass'
+    
 
     Replace LDAP_USER and LDAP_PASS with your LDAP username and password, respectively.
 
